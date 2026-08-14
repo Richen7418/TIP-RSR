@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
-
+/experiments/
 # Editors and operating systems
 .DS_Store
 .idea/
