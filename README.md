@@ -53,3 +53,14 @@ Optional arguments:
 
 Use a fresh output directory for each run to avoid mixing results from earlier
 runs.
+
+## Results
+
+The following examples compare degraded input images with the final restored
+images produced by TIP-RSR.
+
+| Input | Restored result |
+| :---: | :---: |
+| <img src="assets/results/00006-input.png" alt="Degraded input image 00006" width="320"> | <img src="assets/results/00006-output.jpg" alt="Restored result 00006" width="320"> |
+| <img src="assets/results/00015-input.png" alt="Degraded input image 00015" width="320"> | <img src="assets/results/00015-output.jpg" alt="Restored result 00015" width="320"> |
+| <img src="assets/results/00021-input.png" alt="Degraded input image 00021" width="320"> | <img src="assets/results/00021-output.jpg" alt="Restored result 00021" width="320"> |
