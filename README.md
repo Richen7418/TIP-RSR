@@ -1,4 +1,16 @@
-# TIP-RSR
+# Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations? [ACM MM 2026]
+
+The official repository of the paper [Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations?](https://arxiv.org/abs/2604.23688)
+
+<p align='center'>
+  <b>
+    <a href="https://arxiv.org/abs/2604.23688">Paper</a>
+    |
+    <a href="https://github.com/Richen7418/TIP-RSR">Code</a>
+  </b>
+</p>
+
+## TIP-RSR
 
 TIP-RSR restores images with a two-branch pipeline based on GFPGAN and
 Real-ESRGAN, then combines the results with a BiSeNet face parsing mask.
@@ -39,9 +51,21 @@ Put source images in a folder and run:
 python main.py --ori_imgs input/ --save_folder output/
 ```
 
-Supported input extensions are PNG. Final restored images are
-written to `output/cut_imgs/`, with parsing maps under
-`output/cut_imgs/parsing_maps/`.
+### Example using the bundled inputs
+
+The results directory also contains restored JPEGs. Copy only the bundled input
+PNGs into a separate directory before running the pipeline:
+
+```bash
+mkdir -p demo-input/
+cp assets/results/*-input.png demo-input/
+python main.py --ori_imgs demo-input/ --save_folder demo-output/
+```
+
+Supported input extensions are PNG, JPG, and JPEG. Final restored images are
+written to `<save_folder>/cut_imgs/`, with parsing maps under
+`<save_folder>/cut_imgs/parsing_maps/`. For the example above, these paths are
+`demo-output/cut_imgs/` and `demo-output/cut_imgs/parsing_maps/`.
 
 Optional arguments:
 
