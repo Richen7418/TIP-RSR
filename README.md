@@ -1,4 +1,4 @@
-# Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations? [ACM MM 2026]
+# 🛡️ Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations? [ACM MM 2026]
 
 The official repository of the paper [Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations?](https://arxiv.org/abs/2604.23688)
 
